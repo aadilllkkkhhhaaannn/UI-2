@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hdr h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.btn button{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 30px;
+    position: relative;
+    left: 500px;
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+.btn button i{
+    margin-top: 8px;
+}
+.btn input{
+    border: none;
+    background-color: transparent;
+}
+.img img{
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    margin-right: 35px;
+}
+.nvbr ul{
+    list-style: none;
+    display: flex;
+    margin-left: 850px;
+    font-size: 20px;
+    gap: 15px;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navbar-a ul{
+    font-size: 13px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.navbar-a{
+    width: 30%;
+}
+.navbar-b ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: gray;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.img-part img{
+    border-radius: 10px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.text-part img{
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+}
+.text-part h1{
+    font-size: 10px;
+    /* position: relative;
+    bottom: 20px; */
+}
+.text-part ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+
+    font-size: 10px;
+    margin-left: 20px;
+
+    color: #ebc014;
+}
+.text-part h2{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.dlr h1{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    font-size: 30px;
+}
+.dlr h2{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+}
+.img-bc img{
+    height: 50px;
+    margin-top: 20px;
+
+    width: 30px;
+    margin-left: 20px;
+
+    border-radius: 8px;
+}
+.img-bc p{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+
+}
+.box h1{
+    height: 4vh;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-top: 20px;
+
+    font-size: 13px;
+    
+    border-radius: 3px;
+
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid rgb(204, 192, 192);
+}
+.box{
+
+    display: flex;
+    margin-left: 20px;
+
+    gap: 5px;
+
+}
+.img-part{
+    display: flex;
+    
+}
+.add-btn button{
+    margin-top: 50px;
+    height: 35px;
+    width: 740%;
+    position: relative;
+    right: 240px;
+    border: none;
+    top: 20px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+.add-btn h1{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    margin-left: 250px;
+}
+.add-btn button:hover{
+    background-color: rgb(24, 23, 23);
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+
